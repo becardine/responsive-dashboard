@@ -91,7 +91,7 @@
           </div>
           <!--userImg-->
           <div class="user">
-            <img src="/img/user.jpg"/>
+            <img src="/img/user.jpg" />
           </div>
         </div>
 
@@ -135,10 +135,8 @@
           </div>
         </div>
 
-
-        <!-- order details list-->
-
         <div class="details">
+          <!-- order details list-->
           <div class="recentOrders">
             <div class="cardHeader">
               <h2>Recent Orders</h2>
@@ -223,9 +221,52 @@
               </tbody>
             </table>
           </div>
+
+          <!--- New Customers --->
+          <div class="recentCustomers">
+            <div class="cardHeader">
+              <h2>Recent Customers</h2>
+            </div>
+            <table>
+              <tr>
+                <td width="60px"><div class="imgBx"><img src="/img/img1.jpg" alt=""></div></td>
+                <td><h4>David <br><span>Italy</span> </h4></td>
+              </tr>
+              <tr>
+                <td width="60px"><div class="imgBx"><img src="/img/img2.jpg" alt=""></div></td>
+                <td><h4>Muhamed <br><span>India</span> </h4></td>
+              </tr>
+              <tr>
+                <td width="60px"><div class="imgBx"><img src="/img/img3.jpg" alt=""></div></td>
+                <td><h4>Amelia<br><span>France</span> </h4></td>
+              </tr>
+              <tr>
+                <td width="60px"><div class="imgBx"><img src="/img/img4.jpg" alt=""></div></td>
+                <td><h4>Olivia<br><span>USA</span> </h4></td>
+              </tr>
+              <tr>
+                <td width="60px"><div class="imgBx"><img src="/img/img5.jpg" alt=""></div></td>
+                <td><h4>Amit<br><span>Japan</span> </h4></td>
+              </tr>
+              <tr>
+                <td width="60px"><div class="imgBx"><img src="/img/img6.jpg" alt=""></div></td>
+                <td><h4>Ashraf<br><span>India</span> </h4></td>
+              </tr>
+              <tr>
+                <td width="60px"><div class="imgBx"><img src="/img/img7.jpg" alt=""></div></td>
+                <td><h4>Diana <br><span>Malasya</span> </h4></td>
+              </tr>
+              <tr>
+                <td width="60px"><div class="imgBx"><img src="/img/img8.jpg" alt=""></div></td>
+                <td><h4>Amit<br><span>India</span> </h4></td>
+              </tr>
+              <tr>
+                <td width="60px"><div class="imgBx"><img src="/img/img9.jpg" alt=""></div></td>
+                <td><h4>Maria<br><span>Brazil</span> </h4></td>
+              </tr>
+            </table>
+          </div>
         </div>
-
-
       </div>
     </div>
 
@@ -239,15 +280,15 @@
     ></script>
 
     <script>
-        // Menu Toggle
-        let toggle = document.querySelector('.toggle');
-        let navigation = document.querySelector('.navigation');
-        let main = document.querySelector('.main');
+      // Menu Toggle
+      let toggle = document.querySelector(".toggle");
+      let navigation = document.querySelector(".navigation");
+      let main = document.querySelector(".main");
 
-        toggle.onclick = function(){
-            navigation.classList.toggle('active');
-            main.classList.toggle('active');
-        }
+      toggle.onclick = function () {
+        navigation.classList.toggle("active");
+        main.classList.toggle("active");
+      };
 
       //add hovered class in selected list item
       let list = document.querySelectorAll(".navigation li");
